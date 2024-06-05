@@ -1,0 +1,356 @@
+{
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "explorer.compactFolders": false,
+  "editor.minimap.enabled": false,
+  "workbench.editor.enablePreviewFromQuickOpen": true,
+  "editor.codeLens": false,
+  "editor.hover.enabled": false,
+  "editor.tabSize": 2,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[nunjucks]": {
+      "editor.defaultFormatter": "okitavera.vscode-nunjucks-formatter"
+  },
+  "liveServer.settings.showOnStatusbar": true,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "auto-rename-tag.activationOnLanguage": [
+      "*"
+  ],
+  "workbench.colorCustomizations": {
+      "editor.selectionBackground": "#435D09",
+      "editor.selectionHighlightBackground": "#394185",
+      "editor.findMatchHighlightBackground": "#264eff",
+      "editor.findMatchBorder": "#ffffff",
+      "editor.findMatchBackground": "#b00ffa",
+      "editor.lineHighlightBackground": "#1073cf2d",
+      "editor.lineHighlightBorder": "#9fced11f"
+  },
+  "files.associations": {
+      "*.njk": "nunjucks",
+      "*.html": "html"
+  },
+  "git.confirmSync": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "php.validate.executablePath": "",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "vsnotes.defaultNotePath": "/Users/m126/study/おメモ",
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+      "*": true,
+      "plaintext": true,
+      "markdown": false,
+      "scminput": false,
+      "yaml": false,
+      "css": false,
+      "html": true,
+      "scss": false,
+      "javascript": true
+  },
+  "todo-tree.general.tags": [
+      "COMP",
+      "FIXME",
+      "NOTE",
+      "REVIEW",
+      "TODO",
+      "WARNING"
+  ],
+  "better-comments.tags": [
+      {
+          "tag": "COMP",
+          "strikethrough": false,
+          "backgroundColor": "transparent",
+          "color": "#1bd1ce"
+      },
+      {
+          "tag": "FIXME",
+          "strikethrough": false,
+          "backgroundColor": "transparent",
+          "color": "green"
+      },
+      {
+          "tag": "NOTE",
+          "strikethrough": false,
+          "backgroundColor": "transparent",
+          "color": "#C0C0C0"
+      },
+      {
+          "tag": "REVIEW",
+          "strikethrough": false,
+          "backgroundColor": "transparent",
+          "color": "#2C7CFF"
+      },
+      {
+          "tag": "TODO",
+          "strikethrough": false,
+          "backgroundColor": "transparent",
+          "color": "#FF5F17"
+      },
+      {
+          "tag": "WARNING",
+          "strikethrough": false,
+          "backgroundColor": "transparent",
+          "color": "red"
+      }
+  ],
+  "css-auto-prefix.prefixes": {
+      "transform": [
+          "webkit",
+          "moz",
+          "ms",
+          "o"
+      ],
+      "transition": [
+          "webkit",
+          "moz",
+          "ms",
+          "o"
+      ],
+      "border-radius": [
+          "webkit",
+          "moz",
+          "ms",
+          "o"
+      ],
+      "animation": [
+          "webkit"
+      ],
+      "box-reflect": [
+          "webkit"
+      ],
+      "filter": [
+          "webkit"
+      ],
+      "font-feature-settings": [
+          "webkit",
+          "moz"
+      ],
+      "backface-visibility": [
+          "webkit"
+      ],
+      "box-decoration-break": [
+          "webkit"
+      ],
+      "hyphens": [
+          "webkit",
+          "moz",
+          "ms"
+      ],
+      "marquee-direction": [
+          "webkit"
+      ],
+      "marquee-play-count": [
+          "webkit"
+      ],
+      "marquee-speed": [
+          "webkit"
+      ],
+      "marquee-style": [
+          "webkit"
+      ],
+      "text-combine-upright": [
+          "webkit",
+          "moz",
+          "ms"
+      ],
+      "text-decoration-color": [
+          "moz"
+      ],
+      "text-decoration-line": [
+          "moz"
+      ],
+      "text-decoration-style": [
+          "moz"
+      ],
+      "text-orientation": [
+          "webkit"
+      ],
+      "writing-mode": [
+          "webkit",
+          "ms"
+      ]
+  },
+  "terminal.external.osxExec": "warp.app",
+  "githubPullRequests.pullBranch": "never",
+  "githubPullRequests.createOnPublishBranch": "never",
+  "terminal.integrated.env.osx": {
+      "FIG_NEW_SESSION": "1"
+  },
+  "intelephense.stubs": [
+      "apache",
+      "bcmath",
+      "bz2",
+      "calendar",
+      "com_dotnet",
+      "Core",
+      "ctype",
+      "curl",
+      "date",
+      "dba",
+      "dom",
+      "enchant",
+      "exif",
+      "FFI",
+      "fileinfo",
+      "filter",
+      "fpm",
+      "ftp",
+      "gd",
+      "gettext",
+      "gmp",
+      "hash",
+      "iconv",
+      "imap",
+      "intl",
+      "json",
+      "ldap",
+      "libxml",
+      "mbstring",
+      "meta",
+      "mysqli",
+      "oci8",
+      "odbc",
+      "openssl",
+      "pcntl",
+      "pcre",
+      "PDO",
+      "pdo_ibm",
+      "pdo_mysql",
+      "pdo_pgsql",
+      "pdo_sqlite",
+      "pgsql",
+      "Phar",
+      "posix",
+      "pspell",
+      "random",
+      "readline",
+      "Reflection",
+      "session",
+      "shmop",
+      "SimpleXML",
+      "snmp",
+      "soap",
+      "sockets",
+      "sodium",
+      "SPL",
+      "sqlite3",
+      "standard",
+      "superglobals",
+      "sysvmsg",
+      "sysvsem",
+      "sysvshm",
+      "tidy",
+      "tokenizer",
+      "xml",
+      "xmlreader",
+      "xmlrpc",
+      "xmlwriter",
+      "xsl",
+      "Zend OPcache",
+      "zip",
+      "zlib",
+      "wordpress"
+  ],
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "prettier.printWidth": 300,
+  "liveshare.accessibility.accessibilityFeaturesEnabled": "off",
+  "autoprefixer.options": {
+      "browsers": [
+          "last 4 versions",
+          "> 5%",
+          "ie >= 8",
+          "firefox >= 20",
+          "chrome >= 35",
+          "Opera >= 11.5 ",
+          "safari >= 8",
+          "edge >= 90",
+          "and_uc >= 12",
+          "and_qq >= 10",
+          "iOS >= 6",
+          "android >= 4.4"
+      ]
+  },
+  "editor.accessibilitySupport": "off",
+  "chatgpt.method": "Browser Auto-login",
+  "yaml.schemas": {
+      "file:///Users/m126/.vscode/extensions/atlassian.atlascode-3.0.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "editor.inlayHints.enabled": "off",
+  "diffEditor.wordWrap": "off",
+  "editor.guides.indentation": true,
+  "editor.guides.bracketPairs": true,
+  "prettier.documentSelectors": [
+      "**/*.astro"
+  ],
+  "[astro]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Noctis Obscuro",
+  "playwright.reuseBrowser": true,
+  "window.commandCenter": false,
+  "emmet.includeLanguages": {
+      "astro": "html"
+  },
+  "terminal.integrated.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "editor.tokenColorCustomizations": {
+      "comments": "#5A5F67"
+  },
+  "githubPullRequests.fileListLayout": "tree",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "markuplint.defaultConfig": {
+      "extends": [
+          "markuplint:recommended"
+      ]
+  },
+  "gutterpreview.imagePreviewMaxHeight": 100,
+  "gutterpreview.imagePreviewMaxWidth": 100,
+  "gutterpreview.enableReferenceLookup": true,
+  "editor.stickyScroll.enabled": true,
+  "workbench.iconTheme": "vscode-icons",
+  "window.zoomLevel": -1,
+  "accessibility.signals.sounds.volume": 0,
+  "accessibility.signals.lineHasError": {
+      "sound": "off"
+  },
+  "accessibility.signals.lineHasFoldedArea": {
+      "sound": "off"
+  },
+  "accessibility.signals.lineHasBreakpoint": {
+      "sound": "off"
+  },
+  "accessibility.signals.lineHasInlineSuggestion": {
+      "sound": "off"
+  },
+  "accessibility.signals.terminalQuickFix": {
+      "sound": "off"
+  },
+  "accessibility.signals.onDebugBreak": {
+      "sound": "off"
+  },
+  "accessibility.signals.taskCompleted": {
+      "sound": "off"
+  },
+  "accessibility.signals.taskFailed": {
+      "sound": "off"
+  },
+  "accessibility.signals.notebookCellCompleted": {
+      "sound": "off"
+  },
+  "accessibility.signals.notebookCellFailed": {
+      "sound": "off"
+  },
+  "accessibility.signals.diffLineInserted": {
+      "sound": "off"
+  },
+  "accessibility.signals.diffLineDeleted": {
+      "sound": "off"
+  },
+  "accessibility.signals.diffLineModified": {
+      "sound": "off"
+  },
+  "accessibility.signals.noInlayHints": {
+      "sound": "off"
+  }
+}
